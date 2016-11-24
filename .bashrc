@@ -9,7 +9,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-alias ll='ls -alF'
+alias ll='ls -alSFh'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -45,5 +45,3 @@ fi
 
 PS1="${user_color}\u@\h \[\033[1;36m\]\W\[\033[0m\]\[\033[0;32m\]\$(git-branch-prompt)\[\033[0m\] \$ "
 export PATH="/usr/local/heroku/bin:$PATH"
-
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}  
