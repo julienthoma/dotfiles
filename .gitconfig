@@ -25,7 +25,7 @@
   editor = code
 	excludesfile = /Users/julien/.gitignore_global
   pager = less -R
-	autocrlf = true
+	autocrlf = false
 
 [alias]
     br = branch
