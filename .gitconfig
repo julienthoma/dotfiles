@@ -23,7 +23,7 @@
 
 [core]
   editor = code
-	excludesfile = /Users/julien/.gitignore_global
+	excludesfile = ~/.gitignore_global
   pager = less -R
 	autocrlf = false
 
