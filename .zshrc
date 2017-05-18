@@ -1,1 +1,0 @@
-/Users/julienthoma/.zprezto/runcoms/zshrc
