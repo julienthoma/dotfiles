@@ -22,7 +22,7 @@
   untracked = cyan
 
 [core]
-  editor = code
+  editor = vim
 	excludesfile = ~/.gitignore_global
   pager = less -R
 	autocrlf = false
