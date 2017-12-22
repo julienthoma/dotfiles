@@ -1,2 +1,4 @@
 source ~/.aliases
 
+unalias rm
+

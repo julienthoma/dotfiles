@@ -458,17 +458,17 @@
 	<key>HideTabNumber</key>
 	<false/>
 	<key>HotKeyBookmark</key>
-	<string>5240A54A-9CE4-4412-B5DD-9722BA50BFD0</string>
+	<string>0FDC0D62-81EF-4C95-AB0F-A41DC062BD7D</string>
 	<key>HotKeyTogglesWindow</key>
 	<false/>
 	<key>Hotkey</key>
-	<true/>
+	<false/>
 	<key>HotkeyChar</key>
-	<integer>32</integer>
+	<integer>127</integer>
 	<key>HotkeyCode</key>
-	<integer>49</integer>
+	<integer>51</integer>
 	<key>HotkeyModifiers</key>
-	<integer>524288</integer>
+	<integer>256</integer>
 	<key>JobName</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -518,13 +518,17 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>412 364 620 392 0 0 1440 878 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 314 770 381 0 0 1440 878 </string>
+	<string>269 356 937 465 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>197 48 650 477 0 0 1440 878 </string>
+	<string>263 72 650 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-1468 170 665 436 -2048 -252 2048 1130 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>197 48 650 477 0 0 1440 900 </string>
+	<key>NeverWarnAboutShortLivedSessions_0FDC0D62-81EF-4C95-AB0F-A41DC062BD7D</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_0FDC0D62-81EF-4C95-AB0F-A41DC062BD7D_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2020,7 +2024,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-18T18:04:36Z</date>
+	<date>2017-06-14T13:04:46Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
