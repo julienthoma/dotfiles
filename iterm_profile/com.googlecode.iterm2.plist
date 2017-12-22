@@ -10,6 +10,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>custom</key>
@@ -467,6 +469,8 @@
 	<integer>32</integer>
 	<key>HotkeyCode</key>
 	<integer>49</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>524288</integer>
 	<key>JobName</key>
@@ -492,7 +496,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAc7Gdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -513,18 +517,26 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame Preferences</key>
-	<string>269 348 606 456 0 0 1440 878 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>412 364 620 392 0 0 1440 878 </string>
+	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 314 770 381 0 0 1440 878 </string>
+	<string>861 506 796 473 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>197 48 650 477 0 0 1440 878 </string>
+	<string>-1673 132 650 477 -1920 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-1468 170 665 436 -2048 -252 2048 1130 </string>
+	<string>185 45 892 826 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>197 48 650 477 0 0 1440 900 </string>
+	<string>363 350 570 452 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>292 274 570 452 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>281 421 570 452 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>302 398 570 452 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>323 375 570 452 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>344 352 570 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1956,12 +1968,12 @@
 			<string>/Users/julien</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveUsedCopyMode</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>BEC670D8-4D2D-4FB7-B78D-3B56C3979AC7</string>
-	<key>NoSyncLastTipTime</key>
-	<real>502455722.22893798</real>
+	<string>C9DAC056-3A27-4F23-91D1-2E3AA9A6676E</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1969,11 +1981,7 @@
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>502455653.22377902</real>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-	</array>
+	<real>516804194.11876798</real>
 	<key>NumberOfLinesForAccessibility</key>
 	<integer>100000</integer>
 	<key>PointerActions</key>
@@ -2010,17 +2018,19 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/julien/dotfiles/iterm_profile</string>
+	<string>/Users/julienthoma/dotfiles/iterm_profile</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=88</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=19</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-18T18:04:36Z</date>
+	<date>2017-12-22T10:56:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2056,7 +2066,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
