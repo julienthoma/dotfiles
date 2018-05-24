@@ -443,6 +443,10 @@
 	<false/>
 	<key>DimOnlyText</key>
 	<false/>
+	<key>DisableFullscreenTransparency</key>
+	<false/>
+	<key>EnableProxyIcon</key>
+	<false/>
 	<key>FlashTabBarInFullscreen</key>
 	<true/>
 	<key>FocusFollowsMouse</key>
@@ -520,9 +524,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>861 506 796 473 0 0 1920 1178 </string>
+	<string>-1317 570 770 429 -1920 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-1673 132 650 477 -1920 0 1920 1178 </string>
+	<string>-1610 63 650 477 -1920 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>185 45 892 826 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2030,11 +2034,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-12-22T10:56:31Z</date>
+	<date>2018-03-07T01:25:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
-	<false/>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>ShowNewOutputIndicator</key>
@@ -2058,7 +2062,7 @@
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>
-	<false/>
+	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
