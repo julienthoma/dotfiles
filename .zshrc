@@ -4,3 +4,4 @@ fi
 
 source ~/.bash_profile
 
+unsetopt correct
