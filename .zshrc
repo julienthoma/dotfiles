@@ -5,3 +5,4 @@ fi
 source ~/.bash_profile
 
 unsetopt correct
+unalias rm
