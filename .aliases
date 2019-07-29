@@ -1,1 +1,4 @@
 alias ll='ls -alFh'
+
+alias dw='defaults write'
+alias dr='defaults read'
