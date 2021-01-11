@@ -38,3 +38,5 @@
     hist = log --pretty="tformat:\"%Cgreen%t%Creset %ad  %s%d [%an]\"" --graph --date=short
     ls = ls-files
     lg = log --graph --pretty=format:'%C(dim green)%h%  %C(dim cyan) %cr %C(yellow)%d%Creset %s  %C(dim yellow)%an'
+    pufl = push --force-with-lease
+    fix = commit --amend --no-edit
